@@ -22,7 +22,7 @@ const config = {
   <body>
     <h1>404 未找到。</h1>
     <p>您访问的网址不存在。</p>
-    <a href="https://github.com/xyTom/Url-Shorten-Worker/" target="_self">在GitHub上Fork我</a>
+    <a href="https://github.com/Cakjew/Url-Shorten-Chinese" target="_self">在GitHub上Fork我</a>
   </body>`
   
   let response_header={
@@ -332,7 +332,7 @@ const config = {
     
     // 提供首页
     if (!path) {
-      const html = await fetch("https://cak.qzz.io/home.html")
+      const html = await fetch("https://cakjew.github.io/Url-Shorten-Chinese/index.html")
       
       return new Response(await html.text(), {
         headers: {
